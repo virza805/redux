@@ -12,8 +12,8 @@ document.getElementById('add-bgColor').addEventListener('click', function() {
     }
 });
 
-// add Friend
-document.getElementById('add-friend').addEventListener('click', function() {
+// add Friend to replase old
+document.getElementById('replase-friend').addEventListener('click', function() {
     const container = document.getElementById('friend-container');
 
     container.innerHTML = `
@@ -23,3 +23,18 @@ document.getElementById('add-friend').addEventListener('click', function() {
     </div>
     `;
 });
+
+// add new Friend
+document.getElementById('add-friend').addEventListener('click', function() {
+    const container = document.getElementById('friend-container');
+    const friendDiv = document.createElement('div');
+    friendDiv.classList.add('friend');
+
+    friendDiv.innerHTML = `
+        <h3 class="friend-name">Tanzil</h3>
+        <p>He is student</p>
+    `;
+    container.appendChild(friendDiv);
+});
+
+
