@@ -90,7 +90,7 @@ testpage.willdigitalmeh.com
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+M6 => 31.7 Arrow functions
 
 
 
