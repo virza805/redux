@@ -38,3 +38,18 @@ document.getElementById('add-friend').addEventListener('click', function() {
 });
 
 
+// add new Friend try to another way
+// document.getElementById('add-new-friend').addEventListener('click', function() {
+//     console.log('add newFriend clicked');
+//     const container = document.getElementById('friend-container');
+//     const contern = container.innerHTML=
+//     `
+//     <div class="friend">
+//         <h3 class="friend-name">Tanzil</h3>
+//         <p>He is student</p>
+//     </div>
+//     `;
+//     container.appendChild(contern);
+// });
+
+

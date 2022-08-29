@@ -16,7 +16,7 @@ for (const number of numbers) {}
 function fullName(first, second) {
     const name = first + '' + second;
 }
-const person = fullName('Tanvir', 'Ali');
+const person = fullName('Tanvir', 'Hasan');
 
 // 5 object
 const bottle = {
