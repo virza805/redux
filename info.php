@@ -84,13 +84,37 @@ shilajit.internaltest.website
 
 nitta.internaltest.website 
 testpage.willdigitalmeh.com
+============================================================================
+============================================================================
+============================================================================
 
 
+free te 
 
+https://wordpress.org/plugins/polylang/
 
+Polylang ei plugin valo
+
+------------------------------------------
+r premium wpml plugin valo 
+WPML - The WordPress Multilingual Plugin
+https://wpml.org
+------------------------------------------
+
+eita premium
+
+Translate WordPress with GTranslate
+https://wordpress.org/plugins/gtranslate/
+
+automatic translate er jonno eita valo
+
+ free
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-M6 => 31.7 Arrow functions
+অবজেক্ট এ একাধিক প্রোপাটির ভ্যালু একসাথে বেরকরে ভ্যারিয়েবল এ রাখাকে Destructuring বলে। 
+Extracting the value of multiple properties of an object together and keeping it in a variable is called Destructuring.
+
+M6 => 32.2 Destructuring
 
 
 
