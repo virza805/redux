@@ -117,13 +117,15 @@ automatic translate er jonno eita valo
 অবজেক্ট এ একাধিক প্রোপাটির ভ্যালু একসাথে বেরকরে ভ্যারিয়েবল এ রাখাকে Destructuring বলে। 
 Extracting the value of multiple properties of an object together and keeping it in a variable is called Destructuring.
 
-M6 => 32.2 Destructuring
+M6 => 32.5 array map
 
 
-
-
-
-
+http://nesashemp.eu/
+https://smart-contractors.sa/
+https://nitta.internaltest.website/
+https://photography.internaltest.host/
+https://bdsimpex.internaltest.website/
+https://envisionlearning.internaltest.website/
 
 */
 
