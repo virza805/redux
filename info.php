@@ -117,7 +117,7 @@ automatic translate er jonno eita valo
 অবজেক্ট এ একাধিক প্রোপাটির ভ্যালু একসাথে বেরকরে ভ্যারিয়েবল এ রাখাকে Destructuring বলে। 
 Extracting the value of multiple properties of an object together and keeping it in a variable is called Destructuring.
 
-M6 => 32.5 array map
+M6 => 32.8 8 (advanced) Inheritance, extends class, super, class method
 
 
 http://nesashemp.eu/
@@ -127,5 +127,75 @@ https://photography.internaltest.host/
 https://bdsimpex.internaltest.website/
 https://envisionlearning.internaltest.website/
 
+
+
+<div class="container ">
+<div  class="a">a</div>
+<div  class="a">b</div>
+<div  class="a">c</div>
+</div>
+
+.container {
+display: flex;
+justify-content: space-between
+flex-direction: row-reverse;
+}
+.container  .b{
+    left: 50%;
+    transform: translate(50%, 0);
+    margin-right: 50px;
+}
+
+
+
+
+.container {
+flex-direction: row-reverse;
+}
+.container  .b{
+    left: 0;
+    transform:none;
+    margin-right: 0;
+    order: 3;
+}
+.container  .a{
+    left: 50%;
+    transform: translate(50%, 0);
+    margin-right: 50px;
+    order: 2;
+}
+.container  .c{
+    order: 1;
+}
+
 */
 
+
+/*============= For responsive CSS3 Start Now >--->==============*/
+
+
+/* Medium Layout 1280px */
+
+
+/* @media only screen and (min-width:992px) and (max-width:1200px) {} */
+
+
+/* Tablet Layout: 768px */
+
+
+/* @media only screen and (min-width:768px) and (max-width:991px) {} */
+
+
+/* Mobile Layout 320px */
+
+
+/* @media only screen and (max-width:767px) {} */
+
+
+/* Wide Mobile Layout 480px */
+
+
+/* @media only screen and (min-width:480px) and (max-width:766px) {} */
+
+
+/*================= <---End---> responsive CSS3 ===================*/
