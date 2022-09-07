@@ -24,8 +24,8 @@ const company = {
     name: 'vir-za',
     ceo: { id: 1, name: 'Tanvir', food: 'swites'},
     web: { worker: 'website', employee: 200, framework: 'react', 
-    tech: { first: 'html', second: 'css', third: 'javaScript', fourth: 'php'}
-}
+            tech: { first: 'html', second: 'css', third: 'javaScript', fourth: 'php'}
+        }
 }
 //  const work = company.web.work;
 //  const framework = company.web.framework;
