@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .backend_layout_fixed a:hover {
+            color: rgb(28, 185, 28);
+        }
+
+        nav.backend_menu {
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+        }
+
+        #backendWrapper ul {
+            list-style: none;
+        }
+
+        #backendWrapper ul a {
+            text-decoration: none;
+            color: #7b7979;
+        }
+
+        nav.backend_menu ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav.backend_menu ul li a {
+            text-decoration: none;
+            padding: 5px 10px;
+            font-size: 16px;
+            color: #222;
+        }
+
+        nav.backend_menu ul li button {
+            border: 0;
+            padding: 5px 10px;
+            font-size: 16px;
+            color: #222;
+        }
+
+        nav.backend_menu ul li:hover a {
+            color: #000;
+        }
+
+        .left_sidebar_show img.right_arrow {
+            display: none;
+        }
+
+        .left_sidebar_hide img.left_arrow {
+            display: none;
+        }
+
+        .left_arrow,
+        .right_arrow {
+            cursor: pointer;
+        }
+
+        /* The end backend nav bar */
+        /* / Safari syntax / */
+
+        li#fullScreen button {
+            background-color: transparent;
+        }
+
+        :-webkit-full-screen {
+            background-color: #efefed;
+        }
+
+        /* / IE11 / */
+
+        :-ms-fullscreen {
+            background-color: #efefed;
+        }
+
+        /* / Standard syntax / */
+
+        :fullscreen {
+            background-color: #efefed;
+        }
+
+        /* / Style the button / */
+
+        .backend_layout_fixed footer.main-footer {
+            text-align: center;
+            background: black;
+            padding: 5px 0;
+            color: #fff;
+            font-size: 16px;
+            float: none;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: fixed;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22) !important;
+            transition: margin-left .3s ease-in-out, width .3s ease-in-out;
+        }
+
+        .backend_layout_fixed footer.main-footer a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* backend_layout footer style the end */
+
+        .fullScreen_on_off .active_off {
+            display: none;
+        }
+
+        .fullScreen_on_off.fullScreen_active .active_off {
+            display: block;
+        }
+
+        .fullScreen_on_off.fullScreen_active .active_on {
+            display: none;
+        }
+
+        .fullScreen_on_off button {
+            cursor: pointer;
+        }
+
+        /* backend left sidebar icon The End */
+
+        .backend_layout_fixed aside.main_sidebar {
+            bottom: 0;
+            float: none;
+            left: 0;
+            position: fixed;
+            top: 0;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22) !important;
+            transition: margin-left .3s ease-in-out, width .3s ease-in-out;
+            width: 250px;
+        }
+
+        aside.main_sidebar {
+            height: 100%;
+            overflow-x: hidden;
+            z-index: 1038;
+            background: #343a40;
+        }
+
+        #backendWrapper {
+            position: relative;
+            min-height: 100%;
+        }
+
+        .backend_layout_fixed aside.main_sidebar a {
+            text-decoration: none;
+            color: #fff !important;
+        }
+
+        .backend_layout_fixed aside.main_sidebar .profile_inf {
+            display: flex;
+            align-items: center;
+        }
+
+        .backend_layout_fixed aside.main_sidebar .profile_inf img {
+            height: 70px;
+            width: 70px;
+        }
+
+        .backend_layout_fixed aside.main_sidebar .profile_inf h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .backend_layout_fixed aside.main_sidebar .profile_inf h5 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .backend_layout_fixed aside.main_sidebar .profile_inf .user_con {
+            margin-left: 10px;
+        }
+
+        a.backendLogo img {
+            height: 33px;
+        }
+
+        .backend_layout_fixed .left_sidebar_show nav.backend_menu {
+            margin-left: 250px;
+        }
+
+        .backend_layout_fixed .left_sidebar_show aside.main_sidebar {
+            width: 250px;
+        }
+
+        .backend_layout_fixed .left_sidebar_hide aside.main_sidebar {
+            width: 0;
+        }
+
+        .backend_layout_fixed .left_sidebar_show .backend_content_wrapper {
+            margin-left: 250px;
+        }
+
+        .backend_layout_fixed .left_sidebar_hide .backend_content_wrapper {
+            margin-left: 10px;
+        }
+
+        /* The end backend left sidebar */
+
+        .backend_content_wrapper {
+            transition: margin-left .3s ease-in-out;
+        }
+
+        .backend_layout_fixed ul.left_sidebar {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .backend_layout_fixed ul.left_sidebar li {
+            padding: 7px 0;
+        }
+
+        .backend_layout_fixed ul.left_sidebar li a {
+            font-size: 16px;
+        }
+
+        .backend_layout_fixed ul.left_sidebar li>ul li a {
+            font-size: 14px;
+        }
+
+        .backend_layout_fixed ul.left_sidebar li>ul {
+            /* list-style: circle !important; */
+            /* list-style: square !important; */
+            list-style: bengali !important;
+            margin-left: 10px;
+            padding: 0;
+            padding-left: 8px;
+        }
+
+        .backend_layout_fixed ul.left_sidebar li>ul li::marker {
+            color: #0eef0a;
+        }
+
+        .backend_layout_fixed ul.left_sidebar li:hover>a {
+            color: #0eef0a !important;
+        }
+
+        .dropdown-container {
+            display: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #8e8e8e;
+            border-radius: 20px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(191, 191, 191);
+        }
+
+        .backend_layout_fixed a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        .home_icon_number .elementor-icon-box-icon {
+            margin-bottom: -16px;
+        }
+
+
+        /* dabul button */
+        .btn-wrap {
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-wrap .btn {
+            background: #EFF8FF;
+            display: flex;
+            width: 290px;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            border-radius: 50px;
+            justify-content: flex-start;
+        }
+
+        .btn-wrap .btn a {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            text-decoration: none;
+            /* width: 139px; */
+            height: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #175CD3;
+            margin: 4px;
+            flex-wrap: nowrap;
+            /* padding: 0 8px; */
+        }
+
+        .btn-wrap .btn a .uk-margin-small-left.uk-icon {
+            fill: #1570ef;
+            stroke: red !important;
+            /* padding-left: 2px; */
+            /* margin-left: 2px; */
+        }
+
+
+        a.white-btn {
+            padding: 4px 12px;
+            background: #fff;
+            border-radius: 50px;
+            text-align: center;
+            margin-right: 9px !important;
+        }
+
+        .btn-wrap .btn a svg {
+            /* padding-left: 8px; */
+            /* margin-left: 6px; */
+        }
+    </style>
+</head>
+<!-- https://feathericons.com/ -->
+
+<body class="backend_layout_fixed">
+    <div id="backendWrapper" class="left_sidebar_show">
+        <nav class="backend_menu">
+            <ul>
+                <li>
+                    <span onclick="backendSidebarOnOffFunction()">
+                        <a href="#">onclick</a>
+                        <img class="left_arrow" src="imgs/arrow-left.svg" alt="">
+                        <img class="right_arrow" src="imgs/arrow-right.svg" alt="">
+                    </span>
+                </li>
+                <!-- <li><span onclick="backendSidebarOnOffFunction()" id="togglebutton">Show/hide</span></li> -->
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+
+            <div class="clock">
+                <div id="clock">00:00:00</div>
+            </div>
+
+            <ul>
+                <li class="fullScreen_on_off" id="fullScreen">
+                    <button class="active_on" onclick="openFullscreen();"><img src="imgs/maximize-2.svg"
+                            alt="maximize"></button>
+                    <button class="active_off" onclick="closeFullscreen();"><img src="imgs/minimize-2.svg"
+                            alt="minimize"></button>
+                </li>
+                <li>
+                </li>
+                <li>
+                    <a class="backendLogo" href="#"><img src="imgs/virzaOk.gif" alt=""></a>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="main_sidebar">
+            <a href="#">
+                <div class="profile_inf">
+                    <img src="imgs/Tanvir Md. Al-Amin.jpg" alt="Admin Img" style="opacity:1; width: 70px;">
+                    <div class="user_con">
+                        <h3><span style="font-size:10px ;">User role</span> Admin</h3>
+                        <h5>Tanvir</h5>
+                    </div>
+                </div>
+            </a>
+            <!-- Sidebar user profile information the end-->
+            <div class="sidebar">
+                <ul class="left_sidebar">
+                    <li class="  ">
+                        <a href="#" class="dropdown-btn active"> Dashboard</a>
+                        <ul class="     dropdown-container">
+                            <li class=" ">
+                                <a href="#" class="  ">Dashboard v1</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v2</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="  ">
+                        <a href="#" class="dropdown-btn active">Tanjil</a>
+                        <ul class="     dropdown-container">
+                            <li class=" ">
+                                <a href="#" class="  ">Dashboard v1</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v2</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="analock_clock" style="display: flex; justify-content: center;">
+                <canvas id="canvas" width="130" height="130" style="text-align:center"></canvas>
+            </div>
+            <!-- sidebar menu the end -->
+
+            <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/658225"><span style="color:gray;">Current local time in</span><br />Helsinki, Finland</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Europe%2FHelsinki" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+
+
+        </aside>
+
+        <div class="backend_content_wrapper">
+            <h2>Fullscreen with JavaScript</h2>
+            <style>
+                .dropdown-con {
+                    display: none;
+                }
+            </style>
+
+            <div class="btn-wrap">
+                <div class="btn">
+                    <a class="white-btn drop_btn drop_con" href="#">Fully Automated</a>
+                    <ul class="dropdown-con">
+                        <li class=" ">
+                            <a href="#" class=" ">Dropdown Content v1</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#" class=" ">Dropdown Content v2</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#" class=" ">Dropdown Content v3</a>
+                        </li>
+                    </ul>
+
+                    <a href="#">Open FREE Account <span class="uk-margin-small-left uk-icon" uk-icon="arrow-right"><svg
+                                width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <polyline fill="none" stroke="#000" points="10 5 15 9.5 10 14"></polyline>
+                                <line fill="none" stroke="#000" x1="4" y1="9.5" x2="15" y2="9.5"></line>
+                            </svg></span></a>
+                </div>
+            </div>
+
+
+            <p>Click on the "Open Fullscreen" button to open this page in fullscreen mode. Close it by either clicking
+                the "Esc" key on your keyboard, or with the "Close Fullscreen" button.</p>
+
+
+            <div class="per_month_wrap">
+                <div>
+                    <h4>FREE</h4>
+                    <div class="el-meta uk-text-meta">No commitment necessary.</div>
+                </div>
+                <div class="price">
+                    <sup>$</sup>0<span style="font-size: 16px; color: #667085;">per month</span>
+                </div>
+            </div>
+
+
+            Profit Sharing <span>Popular</span>
+
+            <div style="font-size: 45px;"><span style="font-size: 37.5px;"><b>20%</b></span><span
+                    style="font-size: 16px;"> <span class="per_month">per month</span></span></div>
+
+
+
+                    <!-- <div class="clock">
+                        <div id="clock" style="font-size:50px; text-align: center;">00:00:00</div>
+                    </div> -->
+
+                    <!-- https://www.timeanddate.com/worldclock/personal.html -->
+
+            <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/658225"><span style="color:gray;">Current local time in</span><br />Helsinki, Finland</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Europe%2FHelsinki" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+
+            <!-- https://www.zeitverschiebung.net/en/clock-widget?size=medium&timezone=Asia/Dhaka&type=city&id=1185241 -->
+
+            <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/1185241"><span style="color:gray;">Current local time in</span><br />Dhaka, Bangladesh</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FDhaka" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+
+
+
+
+        </div>
+
+        <footer class="main-footer">
+            <strong>Copyright <a href="https://vir-za.com">© 2022 Tanvir Md. Al Amin</a>.</strong> All rights reserved.
+
+        </footer>
+
+
+    </div>
+
+
+
+
+
+
+    <script>
+        // Start Sidebar On Off javaScript
+        function backendSidebarOnOffFunction() {
+            var sampleElem = document.getElementById("backendWrapper");
+            if (sampleElem.className === "left_sidebar_show") {
+                sampleElem.className = "left_sidebar_hide";
+            } else {
+                sampleElem.className = "left_sidebar_show";
+            }
+        }
+
+        // Start now fullScreen javaScript
+        var elem = document.documentElement;
+
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) {
+                // / Safari /
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                // / IE11 /
+                elem.msRequestFullscreen();
+            }
+        }
+
+        function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                // / Safari /
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                // / IE11 /
+                document.msExitFullscreen();
+            }
+        }
+
+        document.getElementById('fullScreen').onclick = function () {
+            this.classList.toggle('fullScreen_active');
+        }
+
+        // Start now DropDown Backend left Sidebar menu javaScript
+
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+
+        // js-project Digital Clock rightSide
+        function startTime() {
+            const now = new Date();
+            let h = now.getHours(); // 0 - 23
+            let m = now.getMinutes(); // 0 - 59
+            let s = now.getSeconds(); // 0 - 59
+            let session = "am";
+
+            if (h == 0) {
+                h = 12;
+            }
+
+            if (h > 12) {
+                h = h - 12;
+                session = "pm";
+            }
+            m = (m < 10) ? "0" + m : m;
+
+            const time = h + ":" + m + ":" + s + " " + session;
+            document.querySelector('#clock').innerHTML = time;
+
+            setTimeout(startTime, 500);
+
+        }
+        startTime();
+
+
+
+        //  Clock -
+
+
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var radius = canvas.height / 2;
+        ctx.translate(radius, radius);
+        radius = radius * 0.90
+        setInterval(drawClock, 1000);
+
+        function drawClock() {
+            drawFace(ctx, radius);
+            drawNumbers(ctx, radius);
+            drawTime(ctx, radius);
+        }
+
+        function drawFace(ctx, radius) {
+            var grad;
+            ctx.beginPath();
+            ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+            ctx.fillStyle = 'white';
+            ctx.fill();
+            grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+            grad.addColorStop(0, '#333');
+            grad.addColorStop(0.5, 'white');
+            grad.addColorStop(1, '#333');
+            ctx.strokeStyle = grad;
+            ctx.lineWidth = radius * 0.1;
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+            ctx.fillStyle = '#333';
+            ctx.fill();
+        }
+
+        function drawNumbers(ctx, radius) {
+            var ang;
+            var num;
+            ctx.font = radius * 0.15 + "px arial";
+            ctx.textBaseline = "middle";
+            ctx.textAlign = "center";
+            for (num = 1; num < 13; num++) {
+                ang = num * Math.PI / 6;
+                ctx.rotate(ang);
+                ctx.translate(0, -radius * 0.85);
+                ctx.rotate(-ang);
+                ctx.fillText(num.toString(), 0, 0);
+                ctx.rotate(ang);
+                ctx.translate(0, radius * 0.85);
+                ctx.rotate(-ang);
+            }
+        }
+
+        function drawTime(ctx, radius) {
+            var now = new Date();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var second = now.getSeconds();
+            //hour
+            hour = hour % 12;
+            hour = (hour * Math.PI / 6) +
+                (minute * Math.PI / (6 * 60)) +
+                (second * Math.PI / (360 * 60));
+            drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+            //minute
+            minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+            drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+            // second
+            second = (second * Math.PI / 30);
+            drawHand(ctx, second, radius * 0.9, radius * 0.02);
+        }
+
+        function drawHand(ctx, pos, length, width) {
+            ctx.beginPath();
+            ctx.lineWidth = width;
+            ctx.lineCap = "round";
+            ctx.moveTo(0, 0);
+            ctx.rotate(pos);
+            ctx.lineTo(0, -length);
+            ctx.stroke();
+            ctx.rotate(-pos);
+        }
+
+        // Start now Only DropDown menu javaScript
+
+        var dropdown = document.getElementsByClassName("drop_btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("drop_con");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>

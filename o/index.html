@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ProjectVue</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="tool/uPlot.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="tool/style.css">
+</head>
+
+<body class="backend_layout_fixed">
+
+    <div id="backendWrapper" class="left_sidebar_hide">
+        <nav class="backend_menu">
+            <ul>
+                <li>
+                    <span style="cursor: pointer;" onclick="backendSidebarOnOffFunction()">
+                      <!-- <a href="#"></a> -->
+                      <img src="img/bar.png" alt="onclick">
+                    </span>
+                </li>
+
+            </ul>
+
+            <div class="clock text-center">
+                <div id="clock">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+            </div>
+
+            <ul>
+                <li class="fullScreen_on_off" id="fullScreen">
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="main_sidebar">
+            <a href="#">
+                <div class="profile_inf">
+                    <h6>Admin</h6>
+                </div>
+            </a>
+            <!-- Sidebar user profile information the end-->
+            <div class="sidebar">
+                <ul class="left_sidebar">
+                    <li class="  ">
+                        <a href="#" class="dropdown-btn active"> Dashboard</a>
+                        <ul class="     dropdown-container">
+                            <li class=" ">
+                                <a href="#" class="  ">Dashboard v1</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v2</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="  ">
+                        <a href="#" class="dropdown-btn active">Tanjil</a>
+                        <ul class="     dropdown-container">
+                            <li class=" ">
+                                <a href="#" class="  ">Dashboard v1</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v2</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                            <li class=" ">
+                                <a href="#" class="   ">Dashboard v3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="analock_clock" style="display: flex; justify-content: center;">
+                <canvas id="canvas" width="130" height="130" style="text-align:center"></canvas>
+            </div>
+            <!-- sidebar menu the end -->
+        </aside>
+
+        <div class="backend_content_wrapper">
+
+            <div class="content-left-menu">
+                <ul>
+                    <li class="round-logo">
+                        <a href="#"><img src="img/white_round.png" alt="Round"></a>
+                    </li>
+                    <li>
+                        <a class="active" href="#"><img src="img/home.png" alt="home"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/mane.png" alt="man"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/video.png" alt="video"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/5.png" alt="video"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/6.png" alt="video"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/7.png" alt="video"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/8.png" alt="video"></a>
+                    </li>
+                </ul>
+                <ul>
+
+                    <li>
+                        <a href="#"><img src="img/9.png" alt="video"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/8.png" alt="video"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col-sm-12">
+                                <h5>Good Morning, John Doe</h5>
+                            </div>
+                        </div>
+                        <div class="count-box-wrap">
+                            <div class="count-box">
+                                <div class="count-left">
+                                    <p>Total revenue</p>
+                                    <h6><b>5468.37 $</b></h6>
+                                </div>
+                                <div class="count-right">
+                                    <img src="img/1.png" alt="dollar">
+                                </div>
+                            </div>
+                            <div class="count-box">
+
+                                <div class="count-left">
+                                    <p>Total user</p>
+                                    <h6><b>5436</b></h6>
+                                </div>
+                                <div class="count-right">
+                                    <img src="img/2.png" alt="dollar">
+                                </div>
+
+                            </div>
+                            <div class="count-box">
+
+                                <div class="count-left">
+                                    <p>Active user</p>
+                                    <h6><b>1730</b></h6>
+                                </div>
+                                <div class="count-right">
+                                    <img src="img/3.png" alt="dollar">
+                                </div>
+
+                            </div>
+                            <div class="count-box">
+
+                                <div class="count-left">
+                                    <p>In room</p>
+                                    <h6><b>720</b></h6>
+                                </div>
+                                <div class="count-right">
+                                    <img src="img/4.png" alt="dollar">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.container-fluid -->
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="container-fluid">
+                        <!-- AREA CHART -->
+                        <div class="card card-primary">
+                            <div class="card-header">
+                                <div class="chart-menu">
+                                    <div class="chart-menu-left">
+                                        <p><b>User activity</b></p>
+                                    </div>
+                                    <div class="chart-menu-right">
+                                        <ul>
+                                            <li><a href="#">Daily</a></li>
+                                            <li class="active"><a href="#">Weekly</a></li>
+                                            <li><a href="#">Monthly</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="chart-menu-after">
+                                    <div class="chart-menu-after-left">
+                                        <h2>1730</h2>
+                                    </div>
+                                    <div class="chart-menu-after-right">
+                                        <img src="img/2.png" alt="">
+                                        <div class="persent">
+                                            <p><span>0.8%</span></p>
+                                            <p>Than last Day</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-tools">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                      class="fas fa-minus"></i></button>
+                                    <button type="button" class="btn btn-tool" data-card-widget="remove"><i
+                      class="fas fa-times"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart">
+                                    <div id="areaChart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+
+                        <!-- LINE CHART -->
+                        <div class="card card-info">
+                            <div class="card-header">
+                                <div class="chart-menu">
+                                    <div class="chart-menu-left">
+                                        <p><b>User activity</b></p>
+                                    </div>
+                                    <div class="chart-menu-right">
+                                        <ul>
+                                            <li><a href="#">Daily</a></li>
+                                            <li><a href="#">Weekly</a></li>
+                                            <li class="active"><a href="#">Monthly</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="chart-menu-after">
+                                    <div class="chart-menu-after-left">
+                                        <h2>1730</h2>
+                                    </div>
+                                    <div class="chart-menu-after-right">
+                                        <img src="img/2.png" alt="">
+                                        <div class="persent">
+                                            <p><span>0.8%</span></p>
+                                            <p>Than last Day</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-tools">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                      class="fas fa-minus"></i></button>
+                                    <button type="button" class="btn btn-tool" data-card-widget="remove"><i
+                      class="fas fa-times"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart">
+                                    <div id="lineChart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+
+        </div>
+
+
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="tool/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="tool/bootstrap.bundle.min.js"></script>
+    <!-- uPlot -->
+    <script src="tool/uPlot.iife.min.js"></script>
+    <script>
+        $(function() {
+            /* uPlot
+             * -------
+             * Here we will create a few charts using uPlot
+             */
+
+            function getSize(elementId) {
+                return {
+                    width: document.getElementById(elementId).offsetWidth,
+                    height: document.getElementById(elementId).offsetHeight,
+                }
+            }
+
+            let data = [
+                [0, 1, 2, 3, 4, 5, 6],
+                [28, 48, 40, 19, 86, 27, 90],
+                [65, 59, 80, 81, 56, 55, 40]
+            ];
+
+            //--------------
+            //- AREA CHART -
+            //--------------
+
+            const optsAreaChart = {
+                ...getSize('areaChart'),
+                scales: {
+                    x: {
+                        time: false,
+                    },
+                    y: {
+                        range: [0, 100],
+                    },
+                },
+                series: [{}, {
+                    fill: 'rgba(60,141,188,0.7)',
+                    stroke: 'rgba(60,141,188,1)',
+                }, {
+                    stroke: '#c1c7d1',
+                    fill: 'rgba(210, 214, 222, .7)',
+                }, ],
+            };
+
+            let areaChart = new uPlot(optsAreaChart, data, document.getElementById('areaChart'));
+
+            const optsLineChart = {
+                ...getSize('lineChart'),
+                scales: {
+                    x: {
+                        time: false,
+                    },
+                    y: {
+                        range: [0, 100],
+                    },
+                },
+                series: [{}, {
+                    fill: 'transparent',
+                    width: 5,
+                    stroke: 'rgba(60,141,188,1)',
+                }, {
+                    stroke: '#c1c7d1',
+                    width: 5,
+                    fill: 'transparent',
+                }, ],
+            };
+
+            let lineChart = new uPlot(optsLineChart, data, document.getElementById('lineChart'));
+
+            window.addEventListener("resize", e => {
+                areaChart.setSize(getSize('areaChart'));
+                lineChart.setSize(getSize('lineChart'));
+            });
+        })
+
+        // Start Sidebar On Off javaScript
+        function backendSidebarOnOffFunction() {
+            var sampleElem = document.getElementById("backendWrapper");
+            if (sampleElem.className === "left_sidebar_show") {
+                sampleElem.className = "left_sidebar_hide";
+            } else {
+                sampleElem.className = "left_sidebar_show";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
