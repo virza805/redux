@@ -1,15 +1,41 @@
 <?php
 /*
-Tanvir12@#
 
 tanvirmdalamin@yahoo.com
 1tanvirmdalamin@gmail.com
 Md.AL-Amin
-
-user: al-amin@seopage1.net	
-Pass: Tanvir12@#
 _________________________________
 
+
+/*============= For responsive CSS3 Start Now >--->==============*/
+
+
+/* Medium Layout 1280px */
+
+
+/* @media only screen and (min-width:992px) and (max-width:1200px) {} */
+
+
+/* Tablet Layout: 768px */
+
+
+/* @media only screen and (min-width:768px) and (max-width:991px) {} */
+
+
+/* Mobile Layout 320px */
+
+
+/* @media only screen and (max-width:767px) {} */
+
+
+/* Wide Mobile Layout 480px */
+
+
+/* @media only screen and (min-width:480px) and (max-width:766px) {} */
+
+
+/*================= <---End---> responsive CSS3 ===================*/
+/*
 ===================================================
 
 https://caveelectricalandsolar.com.au/
@@ -128,33 +154,3 @@ M6 => 32.8 (advanced) Inheritance, extends class, super, class method
 
 
 */
-
-
-/*============= For responsive CSS3 Start Now >--->==============*/
-
-
-/* Medium Layout 1280px */
-
-
-/* @media only screen and (min-width:992px) and (max-width:1200px) {} */
-
-
-/* Tablet Layout: 768px */
-
-
-/* @media only screen and (min-width:768px) and (max-width:991px) {} */
-
-
-/* Mobile Layout 320px */
-
-
-/* @media only screen and (max-width:767px) {} */
-
-
-/* Wide Mobile Layout 480px */
-
-
-/* @media only screen and (min-width:480px) and (max-width:766px) {} */
-
-
-/*================= <---End---> responsive CSS3 ===================*/

@@ -5,7 +5,7 @@ korim = 5;
 // const value not change as like
 
 const nameFull = 'Rahim';
-// nameFull = 'korim'; // this is wong
+// nameFull = 'korim'; // this is wrong
 
 // Multiple line
 const friend = ['tanvir', 'Hasan', 'Onamica', 'Afroza', 'Tonni'];
