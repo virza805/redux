@@ -150,10 +150,13 @@ Extracting the value of multiple properties of an object together and keeping it
 
 
 ================================================
-Start now 17-10-2022
+Start now 17-10-2022 | Module 1
 ================================================
 
-6:20s/11.20s => 1.1 | Module 1 
+6:20s/11.18s => 1.1 What is State Management | Module 1 
+0:20s/11.01s => 1.2 Reactive UI and Reusability | Module 1 
+
+
 
 
 
