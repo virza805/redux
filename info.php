@@ -148,7 +148,48 @@ automatic translate er jonno eita valo
 অবজেক্ট এ একাধিক প্রোপাটির ভ্যালু একসাথে বেরকরে ভ্যারিয়েবল এ রাখাকে Destructuring বলে। 
 Extracting the value of multiple properties of an object together and keeping it in a variable is called Destructuring.
 
-M6 => 32.8 (advanced) Inheritance, extends class, super, class method
+
+================================================
+Start now 17-10-2022
+================================================
+
+6:20s/11.20s => 1.1 | Module 1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
