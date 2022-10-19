@@ -155,7 +155,16 @@ Start now 17-10-2022 | Module 1
 
  / 11.18s => 1.1 What is State Management | Module 1 
 npm start / 11.01s => 1.2 Reactive UI and Reusability | npx create-react-app 1.2 => https://create-react-app.dev/docs/getting-started 
-7:08s / 19.53s => 1.3 React State Management issues 
+ / 19.53s => 1.3 React State Management issues 
+ / 4:28s => 1.4 Introduction to Redux 
+ / 4:37s => 1.5 How Redux Store works 
+ / 18:32s => 1.6 Rewrite the Counter Application
+ / 11:45s => 1.7 Action Payloads and Creators
+ / 9:56s => 1.8 Understanding Reducers
+ / 11:17s => 1.9 Immutability concept
+ / 11:35s => 1.10 Why Reducers are called reducers
+ / 4:15s => 1.11 Redux Data Flow
+2:08s / 6:15s => 1.12 Predictable State Container
 
 
 
