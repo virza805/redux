@@ -37,44 +37,17 @@ _________________________________
 /*================= <---End---> responsive CSS3 ===================*/
 /*
 ===================================================
+https://vir-za.com/shop/
 
-https://caveelectricalandsolar.com.au/
+https://blackrockwheels.com.au/4x4-wheels/
 
-https://mjdesignandbuild.sg/
+https://nitta.internaltest.website/
 
-http://kiffofficial.com/
-
-https://robinsonmemorials.ie/
-
-https://blackrockwheels.com.au/
-
-https://jjtechshow.com/
-
-https://authority.pet/
-
-https://www.clubvirtual.io/
-
-https://seia.internaltest.website/home-2/#
-
-https://gcss-security.com/
-
-https://epcmatter.co.uk/
-
-https://www.jetkrate.com/
-
-https://bramvergouwen.com/
-
-https://intuitivegreenwear.ca/
-
-https://cbfweddings.com/
-
-http://www.sandiego-goldendoodle.com/
+https://robinsonmemorials.ie/product-category/all-headstones/
 
 https://www.honestreviewsv.com/
 
 https://justlikethatbyjess.com/
-
-https://narintara.com/
 
 https://drfog.tech/
 
@@ -164,7 +137,13 @@ npm start / 11.01s => 1.2 Reactive UI and Reusability | npx create-react-app 1.2
  / 11:17s => 1.9 Immutability concept
  / 11:35s => 1.10 Why Reducers are called reducers
  / 4:15s => 1.11 Redux Data Flow
-2:08s / 6:15s => 1.12 Predictable State Container
+ / 6:15s => 1.12 Predictable State Container
+ 
+================================================
+Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start]
+================================================
+ / 9:44s => 2.1 Setup react-redux > npm i redux react-redux
+2:35s / 4:52s => 2.2 Creating Reducers > 
 
 
 
