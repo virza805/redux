@@ -143,7 +143,12 @@ npm start / 11.01s => 1.2 Reactive UI and Reusability | npx create-react-app 1.2
 Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start]
 ================================================
  / 9:44s => 2.1 Setup react-redux > npm i redux react-redux
-2:35s / 4:52s => 2.2 Creating Reducers > 
+ / 4:52s => 2.2 Creating Reducers > 
+ / 4:59s => 2.3 Creating Store > 
+ / 17:10s => 2.4 Connect API > 
+ / 8:33s => 2.5 Redux hook - useSelector() > 
+ / 5:19s => 2.6 Redux hook - useDispatch() > 
+13:38s / 16:23s => 2.7 Redux combineReducers > 
 
 
 
