@@ -148,10 +148,17 @@ Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start]
  / 17:10s => 2.4 Connect API > 
  / 8:33s => 2.5 Redux hook - useSelector() > 
  / 5:19s => 2.6 Redux hook - useDispatch() > 
-13:38s / 16:23s => 2.7 Redux combineReducers > 
+ / 16:23s => 2.7 Redux combineReducers > 
+ / 9:57s => 2.8 Own props with the connect API > 
+ / 20:37s => 2.9 Redux Middleware concept > 
+ / 5:43s => 2.10 Adding multiple middleware > npm i redux-logger
+ / 9:34s => 2.11 Debugging Redux application > npm i redux-devtools-extension
+ / 2:43s => 2.12 Task - Create a Shopping Cart >
 
-
-
+================================================
+Start now 30-10-2022 _ 4:37pm | Module 3 | [npm start]
+================================================
+1:38s / 16:26s => 3.1 Setup react-redux project >
 
 
 
