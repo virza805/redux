@@ -24,6 +24,22 @@ const initState = {
       qty: 72,
       stock: 72,
     },
+    {
+      id: 564505,
+      name: 'ViVO',
+      price: 7500,
+      currency: 'BDT',
+      qty: 2,
+      stock: 4,
+    },
+    {
+      id: 759814,
+      name: 'vir-za.com',
+      price: 20000,
+      currency: 'BDT',
+      qty: 1,
+      stock: 2,
+    },
   ],
 }
 export const FETCH_PRODUCTS = 'products/fetch_products'

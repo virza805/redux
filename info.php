@@ -140,7 +140,7 @@ npm start / 11.01s => 1.2 Reactive UI and Reusability | npx create-react-app 1.2
  / 6:15s => 1.12 Predictable State Container
  
 ================================================
-Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start]
+Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start] | 31-10-2022 _ 10:10pm The End.
 ================================================
  / 9:44s => 2.1 Setup react-redux > npm i redux react-redux
  / 4:52s => 2.2 Creating Reducers > 
@@ -156,7 +156,7 @@ Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start]
  / 2:43s => 2.12 Task - Create a Shopping Cart >
 
 ================================================
-Start now 30-10-2022 _ 4:37pm | Module 3 | [npm start]
+Start now 1-11-2022 _ 4:37pm | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The End.
 ================================================
 1:38s / 16:26s => 3.1 Setup react-redux project >
 
