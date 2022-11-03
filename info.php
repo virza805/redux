@@ -156,9 +156,11 @@ Start now 30-10-2022 _ 4:37pm | Module 2 | [npm start] | 31-10-2022 _ 10:10pm Th
  / 2:43s => 2.12 Task - Create a Shopping Cart >
 
 ================================================
-Start now 1-11-2022 _ 4:37pm | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The End.
+Start now 3-11-2022 _ 6:41 am | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The End.
 ================================================
-1:38s / 16:26s => 3.1 Setup react-redux project >
+ / 16:26s => 3.1 Setup react-redux project > npx create-react-app todo -> cd todo -> npm start | https://reactjs.org/docs/create-a-new-react-app.html => https://reactjs.org/docs/create-a-new-react-app.html
+ / 11:29s => 3.2 Defining Actions > npm i redux react-redux -> npm start | to 3-11-2022 8:42 am 
+7:45s / 16:23s => 3.3 Defining Reducers - todo Slice > -> npm start | 3-11-2022, 8:44 am to 3-11-2022, :42 am 
 
 
 
