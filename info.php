@@ -160,7 +160,11 @@ Start now 3-11-2022 _ 6:41 am | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The
 ================================================
  / 16:26s => 3.1 Setup react-redux project > npx create-react-app todo -> cd todo -> npm start | https://reactjs.org/docs/create-a-new-react-app.html => https://reactjs.org/docs/create-a-new-react-app.html
  / 11:29s => 3.2 Defining Actions > npm i redux react-redux -> npm start | to 3-11-2022 8:42 am 
-7:45s / 16:23s => 3.3 Defining Reducers - todo Slice > -> npm start | 3-11-2022, 8:44 am to 3-11-2022, :42 am 
+ / 16:23s => 3.3 Defining Reducers - todo Slice > -> npm start | 3-11-2022, 8:44 am to 4-11-2022, 11:15 pm 
+ / 9:03s => 3.4 Defining Reducers - filter Slice > -> npm start | 4-11-2022, 11:17 am to 5-11-2022, 8:21 pm 
+ / 5:03s => 3.5 Store setup > npm i redux-devtools-extension -> npm start | 5-11-2022, 8:22 pm to -11-2022, :15 am 
+ / 14:47s => 3.6 Todo List and Todo | 5-11-2022, 8:22 pm to 
+4:35s / 15:37s => 3.7 Filters section | 5-11-2022, 11:00 pm to 
 
 
 
