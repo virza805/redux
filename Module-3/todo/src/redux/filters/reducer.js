@@ -6,31 +6,34 @@ const reducer = (state = initialState, action) => {
         case STATUSCHANGED:
             return {
                 ...state,
-                status: action.payload
-            }
+                status: action.payload,
+            };
+
         case COLORCHANGED:
-            const {color, changeType} = action.payload;
+            const { color, changeType } = action.payload;
+
             switch (changeType) {
-                case 'added':
-                    return{
-                        ...state,
-                        colors: [
-                            ...state.colors,
-                            color
-                        ]
-                    }
-                case 'remove':
+                case "added":
                     return {
                         ...state,
-                        colors: state.colors.filter((existingColor) => existingColor !== color),
-                    }
+                        colors: [...state.colors, color],
+                    };
+
+                case "removed":
+                    return {
+                        ...state,
+                        colors: state.colors.filter(
+                            (existingColor) => existingColor !== color
+                        ),
+                    };
+
                 default:
                     return state;
             }
-            
-    
+
         default:
             return state;
     }
-}
+};
+
 export default reducer;

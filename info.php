@@ -164,7 +164,9 @@ Start now 3-11-2022 _ 6:41 am | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The
  / 9:03s => 3.4 Defining Reducers - filter Slice > -> npm start | 4-11-2022, 11:17 am to 5-11-2022, 8:21 pm 
  / 5:03s => 3.5 Store setup > npm i redux-devtools-extension -> npm start | 5-11-2022, 8:22 pm to -11-2022, :15 am 
  / 14:47s => 3.6 Todo List and Todo | 5-11-2022, 8:22 pm to 
-4:35s / 15:37s => 3.7 Filters section | 5-11-2022, 11:00 pm to 
+ / 15:37s => 3.7 Filters section | 5-11-2022, 11:00 pm to 6-11-2022, 7:40 am
+ / 9:43s => 3.8 Filters todo list | 6-11-2022, 7:40 am to 
+4:35s / 9:50s => 3.8 Adding Todo | 6-11-2022, 8:40 am to 6-11-2022, 7:40 am
 
 
 

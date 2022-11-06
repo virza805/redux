@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import cancel from "../assets/images/cancel.png";
-import { colorSelected, toggled, deleted } from "../redux/todos/actions";
+import { colorSelected, deleted, toggled } from "../redux/todos/actions";
 
 export default function Todo({todo}) {
     const dispatch = useDispatch();
@@ -36,7 +36,7 @@ export default function Todo({todo}) {
                     )}
                 </div>
 
-                <div className="select-none flex-1 line-through">
+                <div className={`seflect-none lex-1 ${completed && "line-through"}`}>
                     {text}
                 </div>
 
