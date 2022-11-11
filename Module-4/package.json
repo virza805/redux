@@ -1,0 +1,19 @@
+{
+  "name": "module-4",
+  "version": "1.0.0",
+  "description": "This is try to undestand Asynchronous Actions",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tanvir"
+  ],
+  "author": "tanvir",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "redux": "^4.2.0"
+  }
+}

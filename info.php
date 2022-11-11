@@ -171,11 +171,13 @@ Start now 3-11-2022 _ 6:41 am | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The
 ================================================
 Start now 6-11-2022 _ 10:20 am | Module 4 | [npm start] | -11-2022 _ 0:10 m The End.
 ================================================
-0:35s / 20:50s => 4.1 Adding Todo | 6-11-2022, 10:20 am to 
+15:35s / 20:50s => 4.1 Intro to Asynchronous Actions ->npm init > npm install redux => https://redux.js.org/introduction/installation | https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/ -> npm i node-fetch@2 => data fecth Or api call korar jono | 6-11-2022, 8:55 am to 
 
 
 
-
+// "scripts": {
+  //   "test": "echo \"Error: no test specified\" && exit 1"
+  // },
 
 
 
