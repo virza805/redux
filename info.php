@@ -171,7 +171,11 @@ Start now 3-11-2022 _ 6:41 am | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The
 ================================================
 Start now 6-11-2022 _ 10:20 am | Module 4 | [npm start] | -11-2022 _ 0:10 m The End.
 ================================================
-15:35s / 20:50s => 4.1 Intro to Asynchronous Actions ->npm init > npm install redux => https://redux.js.org/introduction/installation | https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/ -> npm i node-fetch@2 => data fecth Or api call korar jono | 6-11-2022, 8:55 am to 
+ / 20:50s => 4.1 Intro to Asynchronous Actions ->npm init > npm install redux => https://redux.js.org/introduction/installation | https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/ -> npm i node-fetch@2 => data fecth Or api call korar jono | 6-11-2022, 8:55 am to 
+ / 12:19s => 4.2 Understanding Thunk function => | 17-11-2022, 8:35 am to 
+ / 3:53s => 4.3 Redux async Data Flow => | 17-11-2022, 9:04 am to 
+ / 4:36s => 4.4 Introduction to redux-thunk -> npm i redux-thunk => | 17-11-2022, 9:15 am to 19-11-2022, 11:40 am 
+0:35s / 14:14s => 4.5 Project: Todo Application - Part 1 -> => | 19-11-2022, :15 am to 
 
 
 
