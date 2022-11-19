@@ -1,26 +1,28 @@
 import { useDispatch } from "react-redux";
 import cancel from "../assets/images/cancel.png";
-import { colorSelected, deleted, toggled } from "../redux/todos/actions";
+import deleteTodo from "../redux/todos/thunk/deleteTodo";
+import updateColor from "../redux/todos/thunk/updateColor";
+import updateStatus from "../redux/todos/thunk/updateStatus";
 
 export default function Todo({todo}) {
     const dispatch = useDispatch();
     const {text, id, completed, color} = todo;
 
     const handleStatusChange = (todoId) => {
-        dispatch(toggled(todoId));
+        dispatch(updateStatus(todoId, completed));
     }
 
     const handleColorChange = (todoId, color) => {
-        dispatch(colorSelected(todoId, color));
+        dispatch(updateColor(todoId, color));
     }
 
     const handleDeleted = (todoId) => {
-        dispatch(deleted(todoId));
+        dispatch(deleteTodo(todoId));
     }
 
     return (
         <div className="flex justify-start items-center p-2 hover:bg-gray-100 hover:transition-all space-x-4 border-b border-gray-400/20 last:border-0">
-                <div className={`rounded-full bg-white border-2 border-gray-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 ${completed && "border-green-500 focus-within:border-green-500"}`}>
+                <div className={`relative rounded-full bg-white border-2 border-gray-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 ${completed && "border-green-500 focus-within:border-green-500"}`}>
                     <input
                         type="checkbox"
                         checked={completed}
