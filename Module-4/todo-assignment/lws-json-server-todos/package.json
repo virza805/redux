@@ -7,7 +7,7 @@
         "start": "json-server --watch db_todos.json --no-cors true --port 9000"
     },
     "dependencies": {
-        "json-server": "^0.17.0"
+        "json-server": "^0.17.1"
     },
     "keywords": [],
     "author": "Sumit Saha, Learn with Sumit"

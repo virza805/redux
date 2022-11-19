@@ -169,7 +169,7 @@ Start now 3-11-2022 _ 6:41 am | Module 3 | [npm start] | 3-11-2022 _ 10:10pm The
  / 9:50s => 3.8 Adding Todo | 6-11-2022, 8:40 am to 6-11-2022, 7:40 am
 
 ================================================
-Start now 6-11-2022 _ 10:20 am | Module 4 | [npm start] | -11-2022 _ 0:10 m The End.
+Start now 6-11-2022 _ 10:20 am | Module 4 (redux-thunk) | [npm start] | 19-11-2022 _ 08:40 pm The End.
 ================================================
  / 20:50s => 4.1 Intro to Asynchronous Actions ->npm init > npm install redux => https://redux.js.org/introduction/installation | https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/ -> npm i node-fetch@2 => data fecth Or api call korar jono | 6-11-2022, 8:55 am to 
  / 12:19s => 4.2 Understanding Thunk function => | 17-11-2022, 8:35 am to 
@@ -178,16 +178,14 @@ Start now 6-11-2022 _ 10:20 am | Module 4 | [npm start] | -11-2022 _ 0:10 m The 
  / 14:14s => 4.5 Project: Todo Application-Part 1 -> copy module 3 Todo project => npm install -> npm i redux-thunk -> npm start -> || (Backend Express.js) cd lws-json-server-todos -> npm install json-server -> npm start port:9000 => https://github.com/Learn-with-Sumit/think-in-a-redux-way/tree/4.5/lws-json-server-todos | 19-11-2022, 11:59 am to 
  / 8:45s => 4.6 Project: Todo Application - Part 2 | 19-11-2022, 11:59 am to 
  / 9:45s => 4.7 Project: Todo Application - Part 3 | 19-11-2022, :5 am to 
-:20s / 5:23s => 4.8 Project: Todo Application - Part 4 | 19-11-2022, :5 am to 
+ / 5:23s => 4.8 Project: Todo Application - Part 4 | 19-11-2022, :5 am to 
+:20s / 6:23s => 4.9 Project: Todo Application Task -> copy Assignment 4 => npm install -> npm start -> || (Backend Express.js) cd lws-json-server-todos -> npm install json-server -> npm start port:9000| 19-11-2022, :5 am to 
 
-
-
-// "scripts": {
-  //   "test": "echo \"Error: no test specified\" && exit 1"
-  // },
-
-
-
+================================================
+Start now 19-11-2022 _ 10:20 am | Module 5 (redux-rtk [rtk= Redux Toolkit]) | [npm start] | -11-2022 _ 0:40 pm The End.
+================================================
+ / 8:01s => 5.1 Why Redux Toolkit | 19-11-2022, 9:05 pm to 
+:20s / 11:35s => 5.2 Creating Slice | 19-11-2022, 9:15 pm to 
 
 
 

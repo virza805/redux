@@ -28,23 +28,44 @@
       "text": "Learn Forget Learn",
       "completed": false,
       "id": 5,
-      "color": "green"
+      "color": "yellow"
     },
     {
       "text": "Follow LWS Youtube",
-      "completed": true,
+      "completed": false,
       "id": 6,
       "color": "yellow"
     },
     {
-      "text": "New Todo",
-      "completed": false,
-      "id": 7
+      "text": "Old Todo",
+      "completed": true,
+      "id": 7,
+      "color": "red"
     },
     {
-      "text": "New Task",
+      "text": "Tanvir Hasan",
       "completed": false,
       "id": 8
+    },
+    {
+      "text": "Tanvir Md. Al Amin",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "text": "vir-za.com",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "text": "tanvirmdalamint@gmail.com This is Email Address",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "text": "Tonny",
+      "completed": false,
+      "id": 12
     }
   ]
 }
