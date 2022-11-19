@@ -175,7 +175,7 @@ Start now 6-11-2022 _ 10:20 am | Module 4 | [npm start] | -11-2022 _ 0:10 m The 
  / 12:19s => 4.2 Understanding Thunk function => | 17-11-2022, 8:35 am to 
  / 3:53s => 4.3 Redux async Data Flow => | 17-11-2022, 9:04 am to 
  / 4:36s => 4.4 Introduction to redux-thunk -> npm i redux-thunk => | 17-11-2022, 9:15 am to 19-11-2022, 11:40 am 
-0:35s / 14:14s => 4.5 Project: Todo Application - Part 1 -> => | 19-11-2022, 11:59 am to 
+0:35s / 14:14s => 4.5 Project: Todo Application-Part 1 -> copy module 3 Todo project => npm install -> npm start -> cd lws-json-server-todos -> npm install json-server -> npm start| 19-11-2022, 11:59 am to 
 
 
 
