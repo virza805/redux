@@ -196,9 +196,10 @@ Start now 19-11-2022 _ 10:20 am | Module 5 (redux-rtk [rtk= Redux Toolkit]) | [n
  / 5:35s => 5.10 Task - Play with JSON Placeholder | 20-11-2022, 9:00 pm  to 
 
 ================================================
-Start now 20-11-2022 _ 10:20 am | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
 ================================================
-4:00s / 15:51s => 6.1 React-redux Toolkit Project setup -> npx create-react-app . --template redux | 20-11-2022, 10:20 pm  to 
+ / 15:51s => 6.1 React-redux Toolkit Project setup -> npx create-react-app . --template redux | 20-11-2022, 10:20 pm to 20-11-2022, 11:16 pm   
+00:00s / 0:51s => 6.2 React-redux Toolkit Project | 21-11-2022, 0:20 pm  to 
 
 
 
