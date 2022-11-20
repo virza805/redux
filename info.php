@@ -182,13 +182,23 @@ Start now 6-11-2022 _ 10:20 am | Module 4 (redux-thunk) | [npm start] | 19-11-20
 :20s / 6:23s => 4.9 Project: Todo Application Task -> copy Assignment 4 => npm install -> npm start -> || (Backend Express.js) cd lws-json-server-todos -> npm install json-server -> npm start port:9000| 19-11-2022, :5 am to 
 
 ================================================
-Start now 19-11-2022 _ 10:20 am | Module 5 (redux-rtk [rtk= Redux Toolkit]) | [npm start] | -11-2022 _ 0:40 pm The End.
+Start now 19-11-2022 _ 10:20 am | Module 5 (redux-rtk [rtk= Redux Toolkit]) | [npm start] | 20-11-2022 _ 10:22 pm The End.
 ================================================
  / 8:01s => 5.1 Why Redux Toolkit | 19-11-2022, 9:05 pm to 
-:20s / 11:35s => 5.2 Creating Slice | 19-11-2022, 9:15 pm to 
+ / 11:35s => 5.2 Creating Slice -> npm i @reduxjs/toolkit | 20-11-2022, 11:15
+ / 11:24s => 5.3 Configuring Redux Store & Dispatch Actions | 20-11-2022  
+ / 5:24s => 5.4 Introduction to immer - Immutable state updates -> npm i immer | 20-11-2022, 11:40 am  to 
+ / 5:42s => 5.5 Add new feature - Dynamic Counter | 20-11-2022, 12:40 am  to 
+ / 7:52s => 5.6 Middleware Concept -< npm i redux-logger | 20-11-2022, 3:00 pm  to 
+ / 13:47s => 5.7 Extra Reducers | 20-11-2022, 3:00 pm  to 
+ / 16:35s => 5.8 Async thunks - Part 1 | 20-11-2022, 3:00 pm  to 
+ / 20:00s => 5.9 Async thunks - Part 2 -> npm i node-fetch@2 | 20-11-2022, 3:00 pm to 20-11-2022, 10:17 pm 
+ / 5:35s => 5.10 Task - Play with JSON Placeholder | 20-11-2022, 9:00 pm  to 
 
-
-
+================================================
+Start now 20-11-2022 _ 10:20 am | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+================================================
+4:00s / 15:51s => 6.1 React-redux Toolkit Project setup -> npx create-react-app . --template redux | 20-11-2022, 10:20 pm  to 
 
 
 
