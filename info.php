@@ -199,7 +199,10 @@ Start now 19-11-2022 _ 10:20 am | Module 5 (redux-rtk [rtk= Redux Toolkit]) | [n
 Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
 ================================================
  / 15:51s => 6.1 React-redux Toolkit Project setup -> npx create-react-app . --template redux | 20-11-2022, 10:20 pm to 20-11-2022, 11:16 pm   
-00:00s / 0:51s => 6.2 React-redux Toolkit Project | 21-11-2022, 0:20 pm  to 
+ / 5:51s => 6.2 JSON Server =>https://www.npmjs.com/package/json-server -> https://github.com/typicode/json-server | 21-11-2022, 0:20 pm  to 
+ / 25:16s => 6.3 Setup React User Interface | 21-11-2022, 7:50 am  to 
+ / 13:33s => 6.4 Setup Routing - react-router-dom | 21-11-2022, 7:50 am  to 
+01:15s / 19:15s => 6.5 Videos Feature 1 | 21-11-2022, 8:40 am  to 
 
 
 
