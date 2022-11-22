@@ -202,7 +202,12 @@ Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm 
  / 5:51s => 6.2 JSON Server =>https://www.npmjs.com/package/json-server -> https://github.com/typicode/json-server | 21-11-2022, 0:20 pm  to 
  / 25:16s => 6.3 Setup React User Interface | 21-11-2022, 7:50 am  to 
  / 13:33s => 6.4 Setup Routing - react-router-dom | 21-11-2022, 7:50 am  to 
-01:15s / 19:15s => 6.5 Videos Feature 1 | 21-11-2022, 8:40 am  to 
+ / 19:15s => 6.5 Videos Feature 1-> npm i axios | 21-11-2022, 8:40 am to 21-11-2022, 11:40 pm
+ / 15:26s => 6.6 Videos Feature 2 | 22-11-2022, 8:15 am to 
+ / 12:17s => 6.7 Tags Feature 1 | 22-11-2022, 9:02 am to 
+ / 6:49s => 6.8 Tags Feature 2 | 22-11-2022, 9:52 pm to 
+ / 19:19s => 6.9 Video Feature | 22-11-2022, 10:14 pm to 
+:33s / 21:34s => 6.10 Related videos Feature | 2-11-2022, 0:14 pm to 
 
 
 
