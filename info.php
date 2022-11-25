@@ -196,7 +196,7 @@ Start now 19-11-2022 _ 10:20 am | Module 5 (redux-rtk [rtk= Redux Toolkit]) | [n
  / 5:35s => 5.10 Task - Play with JSON Placeholder | 20-11-2022, 9:00 pm  to 
 
 ================================================
-Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | 25-11-2022 _ 9:27 am The End.
 ================================================
  / 15:51s => 6.1 React-redux Toolkit Project setup -> npx create-react-app . --template redux | 20-11-2022, 10:20 pm to 20-11-2022, 11:16 pm   
  / 5:51s => 6.2 JSON Server =>https://www.npmjs.com/package/json-server -> https://github.com/typicode/json-server | 21-11-2022, 0:20 pm  to 
@@ -207,10 +207,16 @@ Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm 
  / 12:17s => 6.7 Tags Feature 1 | 22-11-2022, 9:02 am to 
  / 6:49s => 6.8 Tags Feature 2 | 22-11-2022, 9:52 pm to 
  / 19:19s => 6.9 Video Feature | 22-11-2022, 10:14 pm to 
-:33s / 21:34s => 6.10 Related videos Feature | 2-11-2022, 0:14 pm to 
+ / 21:34s => 6.10 Related videos Feature | 23-11-2022, 11:00 pm to 23-11-2022, 11:57 pm 
+ / 17:45s => 6.11 Filters and Search Feature | 25-11-2022, 07:56 am to 
+ / 16:09s => 6.12 Filters and Search Feature | 25-11-2022, 08:28 am to 
 
+================================================
+Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+================================================
 
-
+5:02 / 6:04s => 7.1 Installation and Project Setup | 25-11-2022, 09:28 am to 
+:33s / 6:04s => 7.1 Installation and Project Setup | 25-11-2022, 09:28 am to 
 
 
 
