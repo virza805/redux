@@ -215,8 +215,12 @@ Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm 
 Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
 ================================================
 
-5:02 / 6:04s => 7.1 Installation and Project Setup | 25-11-2022, 09:28 am to 
-:33s / 6:04s => 7.1 Installation and Project Setup | 25-11-2022, 09:28 am to 
+ / 6:04s => 7.1 Installation and Project Setup | 25-11-2022, 09:28 am to 
+ / 10:56s => 7.2 React User Interface | 27-11-2022, 10:13 am to 
+ / 9:22s => 7.3 Create APIs | 27-11-2022, 10:13 am to 
+ / 18:16s => 7.4 Thunks and Slices | 27-11-2022, 10:13 am to 
+ / 14:45s => 7.5 Add Transaction | 27-11-2022, 11:10 am to 
+:33s / 10:14s => 7.6 List Transaction | 27-11-2022, 11:10 am to 
 
 
 
