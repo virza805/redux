@@ -17,7 +17,7 @@
 .footer {
     padding: 20px;
     text-align: center;
-    background-color: #128f33;
+    background-color: #4338ca;
     color: whitesmoke;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .top_card {
-    background-color: #128f33;
+    background-color: #4338ca;
     color: white;
     padding: 10px 20px;
     min-width: 400px;
@@ -82,7 +82,7 @@ input {
     outline: none;
     cursor: pointer;
     padding: 10px;
-    background-color: #128f33;
+    background-color: #4338ca;
     color: white;
     transition: background-color 0.3s ease;
 }
@@ -117,7 +117,7 @@ label {
 }
 
 .income {
-    background-color: #128f33;
+    background-color: #4338ca;
 }
 
 .expense {
@@ -163,6 +163,7 @@ label {
 }
 
 .cancel_edit {
+    display: none;
     margin-top: 10px;
     background-color: #e6425e !important;
 }
@@ -181,13 +182,6 @@ label {
     overflow-y: auto;
 }
 
-.error {
-    color: red;
-}
-.logo-gif {
-    width: 200px;
-    margin: 0 auto;
-}
 @media (max-width: 450px) {
     .top_card,
     .form {

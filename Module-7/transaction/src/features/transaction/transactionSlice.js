@@ -3,7 +3,7 @@ import {
     addTransaction,
     deleteTransaction,
     editTransaction,
-    getTransactions,
+    getTransactions
 } from "./transactionAPI";
 
 const initialState = {
@@ -11,6 +11,7 @@ const initialState = {
     isLoading: false,
     isError: false,
     error: "",
+    editing: {},
 };
 
 // async thunks
@@ -50,6 +51,14 @@ export const removeTransaction = createAsyncThunk(
 const transactionSlice = createSlice({
     name: "transaction",
     initialState,
+    reducers: {
+        editActive: (state, action) => {
+            state.editing = action.payload;
+        },
+        editInActive: (state) => {
+            state.editing = {};
+        }
+    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchTransactions.pending, (state) => {
@@ -105,11 +114,13 @@ const transactionSlice = createSlice({
                 state.isLoading = true;
             })
             .addCase(removeTransaction.fulfilled, (state, action) => {
+                console.log(action);
                 state.isError = false;
                 state.isLoading = false;
 
                 state.transactions = state.transactions.filter(
-                    (t) => t.id !== action.payload
+                    // (t) => t.id !== action.payload
+                    (t) => t.id !== action.meta.arg
                 );
             })
             .addCase(removeTransaction.rejected, (state, action) => {
@@ -121,3 +132,4 @@ const transactionSlice = createSlice({
 });
 
 export default transactionSlice.reducer;
+export const {editActive, editInActive} = transactionSlice.actions;

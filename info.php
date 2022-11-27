@@ -212,7 +212,7 @@ Start now 20-11-2022 _ 10:20 pm | Module 6 (redux-rtk [rtk= Redux Toolkit] {npm 
  / 16:09s => 6.12 Filters and Search Feature | 25-11-2022, 08:28 am to 
 
 ================================================
-Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | 27-11-2022 _ 06:40 pm The End.
 ================================================
 
  / 6:04s => 7.1 Installation and Project Setup | 25-11-2022, 09:28 am to 
@@ -220,8 +220,17 @@ Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {
  / 9:22s => 7.3 Create APIs | 27-11-2022, 10:13 am to 
  / 18:16s => 7.4 Thunks and Slices | 27-11-2022, 10:13 am to 
  / 14:45s => 7.5 Add Transaction | 27-11-2022, 11:10 am to 
-:33s / 10:14s => 7.6 List Transaction | 27-11-2022, 11:10 am to 
+ / 10:14s => 7.6 List Transaction | 27-11-2022, 11:10 am to 
+ / 30:38s => 7.7 Edit Transaction | 27-11-2022, 2:52 pm to 4:36 pm
+ / 9:59s => 7.8 Delete Transaction | 27-11-2022, 4:36 pm to 
+ / 8:17s => 7.9 Balance Calculation | 27-11-2022, 6:10 pm to 
+:50s / 2:53s => 7.10 Task | 27-11-2022, 6:10 pm to 
 
+================================================
+Start now 27-11-2022 _ 6:44 pm | Module 8 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+================================================
+
+:50s / 8:49s => 8.1 - What is RTK Query & what problem does it solves | 27-11-2022, 7:00 pm to 
 
 
 

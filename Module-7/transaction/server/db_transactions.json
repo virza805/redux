@@ -1,16 +1,34 @@
 {
   "transactions": [
     {
-      "name": "Test",
+      "name": "Tanvir",
       "type": "income",
-      "amount": 100,
+      "amount": 222,
       "id": 1
     },
     {
-      "name": "Test",
+      "name": "Tanvir",
       "type": "expense",
-      "amount": 100,
-      "id": 2
+      "amount": 420,
+      "id": 4
+    },
+    {
+      "name": "some how add mony",
+      "type": "income",
+      "amount": 200,
+      "id": 5
+    },
+    {
+      "name": "c",
+      "type": "expense",
+      "amount": 1,
+      "id": 6
+    },
+    {
+      "name": "Salary November",
+      "type": "income",
+      "amount": 25000,
+      "id": 7
     }
   ]
 }
