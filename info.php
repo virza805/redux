@@ -230,7 +230,10 @@ Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {
 Start now 27-11-2022 _ 6:44 pm | Module 8 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
 ================================================
 
-:50s / 8:49s => 8.1 - What is RTK Query & what problem does it solves | 27-11-2022, 7:00 pm to 
+ / 8:49s => 8.1 - What is RTK Query & what problem does it solves | 27-11-2022, 7:00 pm to 
+ / 5:19s => 8.2 Project and Server Setup | 27-11-2022, 7:00 pm to 
+ / 12:50s => 8.3 API Slice creation & Store configuration | 27-11-2022, 8:00 pm to 
+:10s / 20:02s => 8.4 Create first query | 27-11-2022, 8:32 pm to 
 
 
 
