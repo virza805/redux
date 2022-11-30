@@ -1,81 +1,92 @@
 {
-    "videos": [
-        {
-            "id": 1,
-            "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
-            "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-            "author": "Learn with Sumit",
-            "date": "May 10, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-            "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
-        },
-        {
-            "id": 2,
-            "title": "VS Code Snippets - Boost your productivity with User Snippets",
-            "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-            "author": "Learn with Sumit",
-            "date": "April 25, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-            "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
-            "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
-            "author": "Learn with Sumit",
-            "date": "March 11, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
-            "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg"
-        },
-        {
-            "id": 4,
-            "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
-            "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
-            "author": "Learn with Sumit",
-            "date": "Jan 06, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
-            "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg"
-        },
-        {
-            "id": 5,
-            "title": "SASS Tutorial in English - Overview of SASS",
-            "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-            "author": "Learn with Sumit",
-            "date": "Nov 22, 2021",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-            "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
-        },
-        {
-            "id": 6,
-            "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
-            "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
-            "author": "Learn with Sumit",
-            "date": "Nov 08, 2021",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
-            "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
-        },
-        {
-            "id": 7,
-            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
-            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
-            "author": "Learn with Sumit",
-            "date": "Oct 15, 2021",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
-            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg"
-        }
-    ]
+  "videos": [
+    {
+      "id": 1,
+      "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
+      "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
+      "author": "Learn with Sumit",
+      "date": "May 10, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
+      "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
+    },
+    {
+      "id": 2,
+      "title": "VS Code Snippets - Boost your productivity with User Snippets",
+      "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
+      "author": "LWS",
+      "date": "April 25, 2022",
+      "duration": "10:12",
+      "views": "2.7k",
+      "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
+      "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
+      "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
+      "author": "Learn with Sumit",
+      "date": "March 11, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
+      "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
+      "author": "Learn with Sumit",
+      "date": "Jan 06, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
+      "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg"
+    },
+    {
+      "id": 5,
+      "title": "SASS Tutorial in English - Overview of SASS",
+      "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
+      "author": "Learn with Sumit",
+      "date": "Nov 22, 2021",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
+      "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
+    },
+    {
+      "id": 6,
+      "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
+      "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
+      "author": "Learn with Sumit",
+      "date": "Nov 08, 2021",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
+      "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
+    },
+    {
+      "title": "“ফিরতে ঘরে ভয়” কথা, সুর ও কন্ঠঃ সায়ান",
+      "description": "“ফিরতে ঘরে ভয়”\nকথা, সুর ও কন্ঠঃ সায়ান\n\nফিরতে ঘরে ভয়…\nফিরলে ঘরে দুঃখগুলোর সঙ্গে দেখা হয়\nনা না নেই যে আমার শূন্য ঘরে\nএকলা থাকার ভয়\n\nঘরেই কত আপন মানুষ শত্রু সেজে রয়\nকেউ কি আমায় বলতে পারো\nআপন কারে কয়\n\nযারেই যখন এই ভুবনে আপন মনে হয়\nসময়মতন সেই দিয়ে যায়\nঅন্য পরিচয়\n\nআপন নিয়েই শঙ্কা আমার, পর তো পরই রয়\nআপন যত দুঃখ দেবে\nপর ততটা নয়\n\nসন্ধ্যা প্রদীপ জ্বালিয়ে দিয়ে\nঘরের দরোজায়\nদুঃখগুলো রাত্রি জাগে আমার প্রতীক্ষায়\n\nসন্ধ্যে হলেই বুকের ভেতর\nগুম্‌রে ওঠে ভয়\nআর চোখের নীচে সাত সাগরের কান্না জমা হয়\n\nচোরের মতন বসত করি\nআমারই ঘর বাড়ি\nসেই ঘরেতে দুঃখগুলোর বিরাট জমিদারী\n\nআমার বুকের পাঁজর ভেঙ্গে\nবাসর সে সাজায়\nআগুন জ্বেলে খেলা করে পুড়িয়ে সুখ পায়\n\nক্রীতদাসের মতন\nআমার শেকল পরা হাত\nদুঃখগুলো রাত্রি জেগে\nভোর করে দেয় রাত\n\nস্বপ্ন পুড়ে ছাই করেছে\nজীবনও যায় যায়\nসাধ করে আর\nকেউ কি বলো\nঘর ছেড়ে পালায়\n\nঅনেক দূরের আকাশটাকে\nআপন মনে হয়\nতার নীল হৃদয়ে\nতারায় তারায়\nদুঃখ জ্বলে রয়।।",
+      "author": "সায়ান",
+      "link": "https://www.youtube.com/embed/Ym-g4w9A7jE",
+      "thumbnail": "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819__340.jpg",
+      "date": "Sep 19, 2015",
+      "duration": "6:13",
+      "views": "407,843",
+      "id": 8
+    },
+    {
+      "title": "“এক হারিয়ে যাওয়া বন্ধু” কথা, সুর ও কন্ঠঃ সায়ান",
+      "description": "“এক হারিয়ে যাওয়া বন্ধু”\nকথা, সুর ও কন্ঠঃ সায়ান\n\nএক হারিয়ে যাওয়া বন্ধুর সাথে\nসকাল বিকেল বেলা\nকত পুরোনো নতুন পরিচিত গান\nগাইতাম খুলে গলা\nকত এলোমেলো পথ হেঁটেছি দু’জন\nহাত ছিল না তো হাতে\nছিল যে যার জীবনে দু’টো মন ছিল\nজড়াজড়ি একসাথে\n\nকত ঝগড়া-বিবাদ সুখের স্মৃতিতে\nভরে আছে শৈশব\nতোকে স্মৃতিতে স্মৃতিতে এখনো তো\nভালোবাসছি অসম্ভব\n\nকেন বাড়লে বয়স\nছোট্টবেলার বন্ধু হারিয়ে যায়\nকেন হারাচ্ছে সব বাড়াচ্ছে ভিড়\nহারানোর তালিকায়\n\nআজ কে যে কোথায় আছি\nকোন খবর নেই তো কারো\nঅথচ তোর ঐ দুঃখগুলোতে\nঅংশ ছিল আমারও\nএই চলতি জীবন ঘটনাবহুল\nদু’এক ইঞ্চি ফাঁকে\nতুইতো পাবিনা আমায়\nআর আমিও খুঁজিনা তোকে\n\nকত সুখ পাওয়া হয়ে গেল, তোকে ভুলে গেছি কতবার\nতবু শৈশব থেকে তোর গান যেন ভেসে আসে বারবার\n\nআজ চলতে শিখে গেছি\nতোকে নেই কিছু প্রয়োজন\nতবু ভীষন অপ্রয়োজনে তোকেই\nখুঁজছে আমার মন\nতুই হয়তো ভালোই আছিস\nআর আমিও মন্দ নেই\nতবু অসময়ে এসে স্মৃতিগুলো বুকে\nআঁকিবুকি কাটবেই\n\nতুই কতদুরে চলে গেলি, তোকে হারিয়ে ফেলেছি আমি\nএই দুঃখটা হয়ে থাক, এই দুঃখটা বড় দামী\n\nসেই কোন কথা নেই মুখে\nশুধু চুপচাপ বসে থাকা\nছিল যার যার ব্যথা তার তার বুকে\nছড়িয়ে ছিটিয়ে রাখা\nআমি ভাবিনি তখন ভুলেও এমন\nদু’জন দু’দিকে যাবে\nবুঝিনি আমার হৃদস্পন্দন\nআমারই অচেনা হবে\n\nএই বিভক্ত পৃথিবীতে বড় শক্ত বাঁধন ছিল\nহলো অহংকারের জয়, সেই বন্ধন ছিঁড়ে গেলো\n\nসেই অহংকারের খেলায় দু’জনে\nজিতে গেছি একসাথে\nপ্রতি ইটের জবাব পাথরে দিয়েছি\nবিজয়ের মালা হাতে\nসেই বিজয়োল্লাস প্রতিধ্বনিত\nমুর্ত আর্তনাদে\nআজ বুকের ভিতর মিষ্টি একটা\nশৈশব শুধু কাঁদে\n\nআজ অবেলার অবসরে কেন লাগছে ভীষন একা\nকত হাজার বছর তোর হাতটাকে হয়নি তো ছুঁয়ে দেখা\n\nআমি কত কত বার আঁকি তোর ছবি\nভঙ্গুর কল্পনাতে\nআজও জ্বলে যাই আজও পুড়ে যাই\nতোর দু’চোখের অবসাদে\n\nদ্যাখ্‌ নীল নীল নীল আকাশের মত\nঅনন্ত হাহাকার\nআজ বুকের ভেতর ভাঙছে ভাঙছে\nভেঙে সব চুরমার\n\nকোন শত্রুরও যেন প্রাণের বন্ধু\nএমন দূরে না যায়\nশোন বন্ধু কখনো কোন বন্ধুকে\nবলোনা যেন বিদায়।।",
+      "author": "Sahan",
+      "link": "https://www.youtube.com/embed/1ABVQpjXOAs",
+      "thumbnail": "https://images.unsplash.com/photo-1452827073306-6e6e661baf57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "date": "Sep 19, 2015",
+      "duration": "6:12",
+      "views": "746,849",
+      "id": 9
+    }
+  ]
 }

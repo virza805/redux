@@ -227,14 +227,26 @@ Start now 25-11-2022 _ 9:30 pm | Module 7 (CRUD redux-rtk [rtk= Redux Toolkit] {
 :50s / 2:53s => 7.10 Task | 27-11-2022, 6:10 pm to 
 
 ================================================
-Start now 27-11-2022 _ 6:44 pm | Module 8 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -11-2022 _ 0:40 pm The End.
+Start now 27-11-2022 _ 6:44 pm | Module 8 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | 1-12-2022, 12:07 am The End.
 ================================================
 
  / 8:49s => 8.1 - What is RTK Query & what problem does it solves | 27-11-2022, 7:00 pm to 
  / 5:19s => 8.2 Project and Server Setup | 27-11-2022, 7:00 pm to 
  / 12:50s => 8.3 API Slice creation & Store configuration | 27-11-2022, 8:00 pm to 
-:10s / 20:02s => 8.4 Create first query | 27-11-2022, 8:32 pm to 
+ / 20:02s => 8.4 Create first query | 27-11-2022, 8:32 pm to 
+ / 13:47s => 8.5 Api Query - Get single video | 27-11-2022, 10:02 pm to 
+ / 16:14s => 8.6 Api Query - Get related videos | 28-11-2022, 10:19 pm to 
+ / 22:50s => 8.7 Advance Configuration | 28-11-2022, 11:05 pm to 
+ / 21:40s => 8.8 Adding video - POST request | 29-11-2022, 8:30 am to 11:25 pm
+ / 7:56s => 8.9 Cache Behavior - Revalidation | 30-11-2022, 9:20 am to 
+ / 31:42s => 8.10 Edit video and Revalidate | 30-11-2022, 9:40 am to 11:43 pm 
+ / 9:15s => 8.11 Delete video and Revalidate | 30-11-2022, 11:43 pm to 
+ / 4:05s => 8.12 Task - Advanced Todo Application with RTK Query | 30-11-2022, 11:43 pm to 1-12-2022, 12:07 am 
 
+================================================
+Start now 1-12-2022 _ 12:07 pm | Module 9 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -12-2022 _ 0:40 pm The End.
+================================================
+:20s / 5:20s => 9.1 Project Setup | 1-12-2022, 12:07 am to  
 
 
 
