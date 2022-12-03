@@ -1,10 +1,10 @@
 {
   "todos": [
     {
-      "text": "Learn MongoDB",
+      "text": "Laravel",
       "completed": false,
       "id": 11,
-      "color": "red"
+      "color": "green"
     },
     {
       "text": "Learn REST API",
@@ -13,13 +13,13 @@
       "color": "red"
     },
     {
-      "text": "Learn GraphQL",
+      "text": "Learn Vue.Js",
       "completed": false,
       "id": 14,
-      "color": "yellow"
+      "color": "green"
     },
     {
-      "text": "Learn Query",
+      "text": "Learn Nuxt.Js",
       "completed": false,
       "id": 15,
       "color": "yellow"
@@ -31,19 +31,19 @@
       "color": "red"
     },
     {
-      "text": "Learn From LWS",
-      "completed": true,
-      "id": 17
-    },
-    {
       "text": "Learn Redux",
       "completed": true,
       "id": 18
     },
     {
-      "text": "Learn RTK  Query",
+      "text": "564.505",
       "completed": false,
       "id": 19
+    },
+    {
+      "text": "0.9531805",
+      "completed": false,
+      "id": 20
     }
   ]
 }
