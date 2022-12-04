@@ -251,11 +251,15 @@ Start now 1-12-2022 _ 12:07 pm | Module 9 (RTK Query [rtk= Redux Toolkit] {npm i
  / 18:17s => 9.3 Create API Slice | 4-12-2022, 2:35 pm to  
 6
  / 24:17s => 9.4 Auth API and Slice | 4-12-2022, 2:54 pm to  
- / 19:32s => 9.5 Auth API and Slice | 4-12-2022, 2:54 pm to  
-
-
-
-:20s / 12:08s => 9.9 Private Route | 4-12-2022, 4:54 pm to  
+ / 19:32s => 9.5 Registration Feature | 4-12-2022, 4:33 pm to  
+ / 4:52s => 9.6 Login Feature | 4-12-2022, 4:33 pm to  
+ / 6:48s => 9.7 Authenticated Request | 4-12-2022, 4:40 pm to  
+ / 11:26s => 9.8 Login Persistency | 4-12-2022, 4:49 pm to  
+ / 12:08s => 9.9 Private Route | 4-12-2022, 4:54 pm to  
+ / 5:32s => 9.10 Conversations API | 4-12-2022, 6:04 pm to  
+ / 18:36s => 9.11 Conversation Functionality -> npm i moment, npm i gravatar-url | 4-12-2022, 6:54 pm to  
+ / 19:28s => 9.12 Messages API and Functionality | 4-12-2022, 6:54 pm to  
+:20s / 12:34s => 9.13 Chat head Feature | 4-12-2022, 10:19 pm to  
 
 
 

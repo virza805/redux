@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logoImage from "../assets/images/lws-logo-light.svg";
+import logoImage from "../assets/images/logo.gif";
 import Error from "../components/ui/Error";
 import { useRegisterMutation } from "../features/auth/authApi";
 

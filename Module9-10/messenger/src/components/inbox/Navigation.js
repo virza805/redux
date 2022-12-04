@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import logoImage from "../../assets/images/lws-logo-dark.svg";
+import logoImage from "../../assets/images/logo.gif";
 import { userLoggedOut } from "../../features/auth/authSlice";
 
 export default function Navigation() {
