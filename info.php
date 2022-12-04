@@ -246,7 +246,16 @@ Start now 27-11-2022 _ 6:44 pm | Module 8 (RTK Query [rtk= Redux Toolkit] {npm i
 ================================================
 Start now 1-12-2022 _ 12:07 pm | Module 9 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -12-2022 _ 0:40 pm The End.
 ================================================
-:20s / 5:20s => 9.1 Project Setup | 1-12-2022, 12:07 am to  
+ / 5:20s => 9.1 Project Setup | 1-12-2022, 12:07 am to  
+ / 17:57s => 9.2 Server Setup & Requirement Analysis | 4-12-2022, 2:17 pm to  
+ / 18:17s => 9.3 Create API Slice | 4-12-2022, 2:35 pm to  
+6
+ / 24:17s => 9.4 Auth API and Slice | 4-12-2022, 2:54 pm to  
+ / 19:32s => 9.5 Auth API and Slice | 4-12-2022, 2:54 pm to  
+
+
+
+:20s / 12:08s => 9.9 Private Route | 4-12-2022, 4:54 pm to  
 
 
 
