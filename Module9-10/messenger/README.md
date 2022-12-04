@@ -5,7 +5,7 @@
 <br />
 <p align="center">
     <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://learnwithsumit.com">THINK IN A REDUX WAY - MODULE 9 - LESSON 9 </a></h3>
+    <h3 align="center"><a href="https://learnwithsumit.com">THINK IN A REDUX WAY - MODULE 9 - LESSON 12 </a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -45,9 +45,9 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    cd think-in-a-redux-way
    ```
-4. Checkout/switch to branch 9.9
+4. Checkout/switch to branch 9.12
    ```sh
-   git checkout 9.9
+   git checkout 9.12
    ```
 5. Install dependencies
    ```sh

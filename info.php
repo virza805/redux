@@ -244,7 +244,7 @@ Start now 27-11-2022 _ 6:44 pm | Module 8 (RTK Query [rtk= Redux Toolkit] {npm i
  / 4:05s => 8.12 Task - Advanced Todo Application with RTK Query | 30-11-2022, 11:43 pm to 1-12-2022, 12:07 am 
 
 ================================================
-Start now 1-12-2022 _ 12:07 pm | Module 9 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | -12-2022 _ 0:40 pm The End.
+Start now 1-12-2022 _ 12:07 pm | Module 9 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | 5-12-2022 _ 12:52 am The End.
 ================================================
  / 5:20s => 9.1 Project Setup | 1-12-2022, 12:07 am to  
  / 17:57s => 9.2 Server Setup & Requirement Analysis | 4-12-2022, 2:17 pm to  
@@ -260,7 +260,9 @@ Start now 1-12-2022 _ 12:07 pm | Module 9 (RTK Query [rtk= Redux Toolkit] {npm i
  / 18:36s => 9.11 Conversation Functionality -> npm i moment, npm i gravatar-url | 4-12-2022, 6:54 pm to  
  / 19:28s => 9.12 Messages API and Functionality | 4-12-2022, 6:54 pm to  
 :20s / 12:34s => 9.13 Chat head Feature | 4-12-2022, 10:19 pm to  
-
+================================================
+Start now 5-12-2022 _ 12:52 am | Module 10 (RTK Query [rtk= Redux Toolkit] {npm i @reduxjs/toolkit | }) | [npm start] | 5-12-2022 _ 12:52 am The End.
+================================================
 
 
 

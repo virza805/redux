@@ -35,6 +35,12 @@
       "password": "$2a$10$nFJPngGOZNiDDCF45Pb7EuEPKpTxhIrE0aPZZH8X83B3JTJHWJn.O",
       "name": "Virza",
       "id": 6
+    },
+    {
+      "email": "virza805@gmail.com",
+      "password": "$2a$10$9K9ioMwWxrUeCOUpn5OILuE6fXvr24jZ3c7dSkFQVH7M.R/ObaVFW",
+      "name": "MD AL AMIN",
+      "id": 7
     }
   ],
   "conversations": [
